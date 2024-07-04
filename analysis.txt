@@ -1,0 +1,15 @@
+Infix to Postfix Conversion:
+
+Uses a stack (Stack<char> operators) to handle operators.
+Checks operand and operator validity, manages parentheses, and ensures correct expression structure.
+
+Postfix Evaluation:
+Uses a stack (Stack<int> st) to evaluate postfix expressions.
+Handles operands and operators, ensuring correct arithmetic operations and detecting errors like too few operands.
+
+Error Handling:
+Uses exceptions (runtime_error) to manage errors such as mismatched parentheses or invalid tokens in expressions.
+
+Conclusion
+The code effectively demonstrates the conversion from infix to postfix notation and the evaluation of postfix expressions using stacks for efficient processing.
+It provides robust error handling to manage various expression validation issues.
